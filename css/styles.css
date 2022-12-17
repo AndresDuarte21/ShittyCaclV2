@@ -1,0 +1,59 @@
+body{
+    background-color: antiquewhite; /* La idea es colocar el fondo acá */
+}
+
+
+div.header { 
+    text-align: center;
+    background-color: bisque;
+
+    
+    padding: 0px 10px;
+    display: inline;
+    border: 1px solid;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.header > h1, div.header > h2 {
+    background-color: aquamarine;
+    margin: 20px;
+
+
+}
+
+.bloque1 {
+    border: 1px solid;
+    margin: 0px 100px;
+    max-width: 400px;
+    margin: 20% auto 0 auto; /* Para centrar el contenido*/
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.bloque2 {
+    border: 1px solid;
+    text-align: center;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.feet { 
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
